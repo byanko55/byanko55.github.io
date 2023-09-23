@@ -3,7 +3,7 @@ layout: subpage
 title: "블로그 소개"
 theme: blog
 date: "2023-09-22"
-thumbnail: "sample.png"
+thumbnail: "https://i.ibb.co/56zTXW9/sample.png"
 close_comments: true
 ---
 
