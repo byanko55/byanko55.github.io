@@ -40,6 +40,7 @@
                 {%- assign page_path = page.path | split: "/" -%}
                 {%- assign page_name = page_path[-1] -%}
                 {% if page_name == "index.md" and page.theme == "blog" %}
+                    {% include loading.html %}
                     {% include pagination.html %}
                 {% else %}
                     {% include post.html %}
