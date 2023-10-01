@@ -1,10 +1,11 @@
 ---
 layout: subpage
-title: "블로그 소개"
 theme: blog
+title: "블로그 소개"
 date: "2023-09-22"
 thumbnail: "https://i.ibb.co/MRzw6T9/sample.webp"
 close_comments: true
+nav_include: true
 ---
 
 # About Blog
@@ -35,7 +36,7 @@ close_comments: true
 * **``AI/DS``**: **통계학/정보 이론/딥러닝** 또는 그에 기반한 Python Tutorial 
 * ``기타``: **Linux** 또는 기타 유틸리티 소개
 
-![topics](https://i.ibb.co/VTWcv41/topics.webp){: .img-sm}
+![topics](https://i.ibb.co/VTWcv41/topics.webp){: .img-lg}
 
 # 이전 블로그에 관하여
 ---

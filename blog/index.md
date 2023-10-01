@@ -1,7 +1,6 @@
 ---
 layout: subpage
-title: "Home"
 theme: blog
+title: "Home"
+nav_include: true
 ---
-
-# To be updated
