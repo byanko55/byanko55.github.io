@@ -92,10 +92,11 @@
 }
 
 main {
-    margin: auto 2.5rem;
-    font-size: 1.125rem;
+    margin: auto 1rem;
+    font-size: 0.875rem;
     font-family: 'Nunito Sans', sans-serif;
     line-height: 200%;
+    position: relative;
 
     h1, h2, h3 {
         font-family: "Helvetica";
@@ -104,15 +105,15 @@ main {
     }
 
     h1 {
-        font-size: 2.25rem;
-    }
-
-    h2 {
         font-size: 1.75rem;
     }
 
-    h3 {
+    h2 {
         font-size: 1.375rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
     }
 
     p {
@@ -149,7 +150,6 @@ main {
         background-color: #f4f4f4;
         border-radius: 3px;
         font-family: 'Consolas', Courier, monospace;
-        font-size: 1rem;
         color: $color-darkorange;
         position: relative;
         top: -1px;
@@ -191,9 +191,9 @@ main {
         padding-left: 1rem;
         padding-right: 1rem;
         margin: 0 auto $line-space-sm auto;
+        word-break: break-all;
 
         p {
-            font-size: 1rem;
             margin-bottom: 1rem;
             padding-bottom: 0.5rem;
         }
@@ -275,5 +275,30 @@ main {
         border: 0;
         height: 2px;
         background: $color-darkbeige;
+    }
+
+    @include mq(tablet){
+        margin: auto 2.5rem;
+        font-size: 1.125rem;
+
+        h1 {
+            font-size: 2.25rem;
+        }
+    
+        h2 {
+            font-size: 1.75rem;
+        }
+    
+        h3 {
+            font-size: 1.375rem;
+        }
+
+        code {
+            font-size: 1rem;
+        }
+
+        blockquote p {
+            font-size: 1rem;
+        }
     }
 }
