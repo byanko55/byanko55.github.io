@@ -52,11 +52,12 @@
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 
     @include mq(tablet){
         margin: auto 3rem;
+        padding: 2rem;
     }
 
     .post-title {
