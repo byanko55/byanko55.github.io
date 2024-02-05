@@ -1,0 +1,53 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+title: Example.com
+description: "Satellite - jekyll blog theme"
+logo_img: "/assets/img/favicon.webp"
+profile_img: "/assets/img/profile.jpg"
+
+# Social Links
+email: byanko55@gmail.com
+github_username: byanko55
+twitter_username: Yankos285288
+instagram_username: instagram
+linkedin_username: linkedin
+facebook_username: facebook
+
+# External API
+giscus_repo: "byanko55/byanko55.github.io"
+giscus_repoId: "R_kgDOLOQWuw"
+giscus_category: "Q&A"
+giscus_categoryId: "DIC_kwDOLOQWu84Cc9jm"
+goatcounter_code: byanko55
+google_analytics: "G-2XXF0SG31P"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - docs/
+
+collections:
+  pages:
+    output: true
+    permalink: /:path.html
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      date: "1900-01-01"
+
+# Markdown newline activator 
+kramdown:
+  input: GFM
+  hard_wrap: true
