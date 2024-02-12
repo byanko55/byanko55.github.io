@@ -1,7 +1,7 @@
 title: Example.com
 description: "Introduction for you blog"
 logo_img: "/assets/img/favicon.webp"
-profile_img: "/assets/img/profile.jpg"
+profile_img: "/assets/img/profile.webp"
 
 # Social Links
 email: example@gmail.com
@@ -28,6 +28,10 @@ google_analytics:
 # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Build settings
+
+# If you want to deploy Git Page, but choosing the second Installation method (described in README.md)
+# rather than fork, then replace the below line with `remote_theme: byanko55/jekyll-theme-satellite`.
+# Otherwise, DO NOT change it.
 theme: jekyll-theme-satellite
 
 exclude:
