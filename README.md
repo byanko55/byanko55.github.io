@@ -1,4 +1,4 @@
-# This is deom site
+# This is demo site
 
 Visit the [original theme repo](https://github.com/byanko55/jekyll-theme-satellite)! Choose our ***satellite theme*** to build your wonderful blog.
 
